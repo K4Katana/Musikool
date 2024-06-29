@@ -457,6 +457,18 @@ ul li .audio-duration{
     object-fit: cover;
   }
 
+  .img-area{
+    width: 60%;
+    height: 200px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 15px;
+    border-radius: 50%;
+    -moz-box-shadow: 0px 6px 12px var(--lightbshadow);
+    -webkit-box-shadow: 0px 6px 12px var(--lightbshadow);
+    box-shadow: 0px 6px 12px var(--lightbshadow);
+  }
+
   .wrapper{
     width: 350px;
     padding: 25px 30px;
