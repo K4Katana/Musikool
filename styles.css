@@ -442,18 +442,22 @@ ul li .audio-duration{
 @media screen and (max-width: 600px) {
 
   /**
-   * RESET */
-
-  body { background-size: 100%; }
-
-  /**
    * PLAYER
    */
 
   .player { 
     justify-content: center; 
     width: 100%;
+    padding: 0 15px;
   }
+
+  .img-area img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+    
 
 }
 
