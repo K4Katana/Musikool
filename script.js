@@ -41,7 +41,7 @@ function playMusic(){
   playPauseBtn.querySelector("i").innerText = "pause";
   mainAudio.play();
   wave.classList.add('loader');
-  musicImg.classList.add('rotate');
+ //musicImg.classList.add('rotate');
 }
 
 //pause music function
@@ -50,7 +50,7 @@ function pauseMusic(){
   playPauseBtn.querySelector("i").innerText = "play_arrow";
   mainAudio.pause();
   wave.classList.remove('loader');
-  musicImg.classList.remove('rotate');
+ //musicImg.classList.remove('rotate');
 }
 
 //prev music function
